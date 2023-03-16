@@ -11,6 +11,8 @@ I also reconfigured the flow of the CSS coding to align to the general flow of t
 
 ## Usage
 
+The complete refactored webpage can be found [here](https://collylee.github.io/horiseon-accessibility-refactor/)
+
 The webpage includes three links in the nav section of the header. These links travel down to the coresponding sections below the large top image.
 
 ![screenshot of finished webpage](./assets/images/final-project-screenshot.jpg)
