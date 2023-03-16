@@ -1,4 +1,3 @@
-
 body {
     background-color: #d9dcd6;
 }
@@ -15,8 +14,11 @@ header h1 {
     font-size: 48px;
 }
 
+/* "seo" class changed to id, allows for shading of seo in the header */
 #seo {
     color: #d9dcd6;
+    display: inline-block;
+    font-size: 48px;
 }
 
 header nav {
@@ -54,6 +56,12 @@ p {
     background-position: center;
 }
 
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -62,12 +70,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 /* individual SECTION ids were condensed into CLASS "services" */
@@ -100,7 +102,7 @@ p {
     background-color: #2589bd;
 }
 
-/* individual FIGURE ids were condensed into CLASS "benefit figures" */
+/* individual FIGURE ids were condensed into CLASS "benefit-figures" */
 .benefit-figures {
     margin-bottom: 32px;
     color: #ffffff;
@@ -117,8 +119,6 @@ p {
     max-width: 150px;
 }
 
-
-
 footer {
     padding: 30px;
     clear: both;
@@ -126,11 +126,12 @@ footer {
     text-align: center;
 }
 
+/* prev classified as h2; changed to h3 to better match desired font size */
 footer h3 {
     font-size: 20px;
 }
 
- * {
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
