@@ -17,3 +17,6 @@ The webpage includes three links in the nav section of the header. These links t
 
 ![screenshot of finished webpage](./assets/images/final-project-screenshot.jpg)
 
+## Credit
+
+This refactored page was built using starter code provided by the UPenn bootcamp instructional team.
